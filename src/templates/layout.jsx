@@ -6,7 +6,7 @@ function Layout({children}) {
         <Box style={{display: "flex", height: "100vh"}}> 
             <CssBaseline/>
             <Grid container sx={{flexGrow: 1}}>
-                <Grid item flexBasis={100}  m={2}>NAVEGATION</Grid>
+                <Grid item flexBasis={100}  m={2}>NAVIGATION</Grid>
                 <Grid item flex={1} m={2} spacing={8}>
                     {/* <Grid xs={12}>HEADER</Grid> */}
                     <Grid xs={12} height={'20vh'}>HEADER</Grid>
